@@ -1,5 +1,6 @@
 // Librerias, settings y variables
 @import "lib/variables";
+@import "lib/mixins";
 
 //Elementos base
 @import "tablas";
@@ -9,6 +10,9 @@
 
 //Componentes
 @import "components/grids";
+
+//Layout
+@import "layout/layout";
 
 
 
