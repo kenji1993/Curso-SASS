@@ -13,7 +13,14 @@ $color-lightgrey: #bfbfbf;
 $color-white: rgb(255, 255, 255);
 
 //Texturas
-$color-alert:
-$color-error:
-$color-info:
-$color-success:
+$color-alert: rgb(252, 228, 287);
+$color-error: rgb(218,79, 73);
+$color-info: rgb(66, 184, 221);
+$color-success:rgb(91, 183, 91);
+
+//Tipografia
+$basefont: 'Quicksand', sans-serif;
+$basefontsize: 16px;
+
+$buttoncolor: $color-white;
+$buttonbackgroundcolor: $color-brand;
