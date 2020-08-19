@@ -1,3 +1,15 @@
+// Librerias, settings y variables
 @import "lib/variables";
 
+//Elementos base
 @import "tablas";
+@import "base/botones";
+@import "base/links";
+@import "base/tipografia";
+
+//Componentes
+@import "components/grids";
+
+
+
+@import "components/utilities";
