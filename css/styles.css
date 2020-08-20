@@ -7,7 +7,7 @@
 /*---------------------------*\
             BOTONES
 \*---------------------------*/
-.btn {
+.btn, .btn-danger {
   display: inline-block;
   color: white;
   background-color: #ea83ee;
@@ -18,8 +18,12 @@
 .btn__icon {
   font-size: 0.6em;
 }
-.btn.btn--info {
+.btn.btn--info, .btn--info.btn-danger {
   background-color: #42b8dd;
+}
+
+.btn-danger {
+  color: #da4f49;
 }
 
 /*---------------------------*\
