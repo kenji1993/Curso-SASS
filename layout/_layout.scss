@@ -1,6 +1,14 @@
 section {
     @include max-with;
+    background-color: $color-lightgrey;
+    padding: $padding;
+    @include respond-to(800px) {
+        background-color: $color-black;
+    }
 }
-body {
-    @include max-with;
+
+.titulo {
+    @include max-with(80%);
+    background-color: $color-brand;
+    text-align: center;
 }

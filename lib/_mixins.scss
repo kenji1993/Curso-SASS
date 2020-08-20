@@ -2,8 +2,14 @@
             MIXINS
 \*---------------------------*/
 
-@mixin max-with {
-    max-width: 800px;
+@mixin max-with($max-width: $page-width) {
+    max-width: $max-width;
     margin-left: auto;
     margin-right: auto;
+}
+
+@mixin respond-to($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
 }
