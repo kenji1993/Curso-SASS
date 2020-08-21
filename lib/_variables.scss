@@ -7,9 +7,10 @@ $color-brand: #ea83ee;
 $color-secondary: rgb(219, 216, 121);
 
 $color-black: rgb(0,0,0);
-$color-darkgrey: #4d4d4d;
 $color-grey: #737373;
-$color-lightgrey: #bfbfbf;
+$color-darkgrey: darken($color-grey, 25%);
+$color-lightgrey: lighten($color-grey, 25%);
+$color-invertgrey: invert($color-grey);
 $color-white: rgb(255, 255, 255);
 
 //Texturas
