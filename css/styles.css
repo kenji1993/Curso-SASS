@@ -39,7 +39,7 @@ section {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bfbfbf;
+  background-color: #b3b3b3;
   padding: 24px;
 }
 @media only screen and (min-width: 800px) {
@@ -59,3 +59,6 @@ section {
 /*---------------------------*\
         UTILITIES
 \*---------------------------*/
+.div {
+  font-size: 21px;
+}

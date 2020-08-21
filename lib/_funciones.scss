@@ -1,0 +1,13 @@
+$fs: (
+    grande: 25px,
+    normal: 16px,
+    chico: 5px,
+);
+
+@function suma($tamano1, $tamano2) {
+    @return $tamano1 + $tamano2;
+}
+
+.div {
+    font-size: suma(map-get($fs, normal), map-get($fs, chico));
+}
